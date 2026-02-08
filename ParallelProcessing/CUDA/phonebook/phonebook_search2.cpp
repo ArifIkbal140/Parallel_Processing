@@ -215,6 +215,13 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 /**
+
+
+
+!pip install pycuda
+
+     
+
 !nvcc -arch=compute_75 -code=sm_75 search_phonebook_single_list.cu -o search_phonebook
 !time ./search_phonebook TANBIR 256
 
